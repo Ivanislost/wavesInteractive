@@ -1,3 +1,4 @@
+// let hx = require("/node_modules/hexagon-js/dist/hexagon.js")
 
 let pointArray = [];
 var xAmplitude = 40;
@@ -9,11 +10,10 @@ function displacement(x, y){
   console.log(`I am a point with x=${x}, y=${y}`);
 }
 
-function setup() {
-  createCanvas(1600,800);
-
-  for (var xNumIn = 1; xNumIn <= 20; xNumIn++) {
-  	for (var yNumIn = 1; yNumIn <= 20; yNumIn++) {
+function setup(){
+  createCanvas(900,900);
+  for (var xNumIn = 1; xNumIn <= 15; xNumIn++) {
+  	for (var yNumIn = 1; yNumIn <= 15; yNumIn++) {
   		pointArray.push(new ppoint(xNumIn, yNumIn, displacement));
 
   	}
@@ -104,15 +104,15 @@ let sliderYDispYTime = 0;
 
 document.addEventListener("DOMContentLoaded", main());
 function main(){
-  setSliders();
   "use strict";
-  var slider = new hx.Slider('#slider', {"min": -1, "max": 1});
-  console.log(slider);
-  console.log(slider.value());
-  slider.on("change", function(value){
-    sliderSpdX = value
-    console.log(value);
-  })
+  setSliders();
+  // var slider = new hx.Slider('#slider', {"min": -1, "max": 1});
+  // console.log(slider);
+  // console.log(slider.value());
+  // slider.on("change", function(value){
+  //   sliderSpdX = value
+  //   console.log(value);
+  // })
 }
 
 function setSliders(){

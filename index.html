@@ -5,20 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>p5.js example</title>
     <style> body {padding: 0; margin: 0;} </style>
-    <div id="slider" class="hx-slider"></div>
-    <div id="slider2" class="hx-slider"></div>
-    <div id="slider3" class="hx-slider"></div>
-    <div id="slider4" class="hx-slider"></div>
-    <div id="slider5" class="hx-slider"></div>
-    <div id="slider6" class="hx-slider"></div>
-    <div id="slider7" class="hx-slider"></div>
-    <div id="slider8" class="hx-slider"></div>
-
+    <div class="settings">
+      <div class="setting">
+        <p>xSpeed</p>
+        <div id="slider1" class="hx-slider"></div>
+      </div>
+      <div class="setting">
+        <p>ySpeed</p>
+        <div id="slider2" class="hx-slider"></div>
+      </div>
+      <div class="setting">
+        <p>xAmplitude</p>
+        <div id="slider3" class="hx-slider"></div>
+      </div>
+      <div class="setting">
+        <p>yAmplitude</p>
+        <div id="slider4" class="hx-slider"></div>
+      </div>
+      <div class="setting">
+        <p>xDisXTime</p>
+        <div id="slider5" class="hx-slider"></div>
+      </div>
+      <div class="setting">
+        <p>xDisYTime</p>
+        <div id="slider6" class="hx-slider"></div>
+      </div>
+      <div class="setting">
+        <p>yDisXTime</p>
+        <div id="slider7" class="hx-slider"></div>
+      </div>
+      <div class="setting">
+        <p>YDisYTime</p>
+        <div id="slider8" class="hx-slider"></div>
+      </div>
+    </div>
   </head>
   <body>
   </body>
-  <script src="node_modules/hexagon-js/dist/hexagon.js"></script>
-  <link rel="stylesheet" href="node_modules/hexagon-js/dist/hexagon.css">
+  <script src="javascripts/hexagon.js"></script>
+  <link rel="stylesheet" href="styles/hexagon.css">
   <link rel="stylesheet" href="styles/hexagonOverride.css">
   <script src="javascripts/p5.js"></script>
   <script src="javascripts/sketch.js"></script>
