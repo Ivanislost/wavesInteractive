@@ -1,0 +1,33 @@
+{
+  "name": "wavesfield",
+  "version": "0.1.0",
+  "description": "Interactive play on points",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "maven"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivanislost/wavesInteractive.git"
+  },
+  "keywords": [
+    "waves",
+    "interactive",
+    "p5",
+    "point",
+    "bloat",
+    "art"
+  ],
+  "author": "Ivan Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivanislost/wavesInteractive/issues"
+  },
+  "homepage": "https://github.com/Ivanislost/wavesInteractive#readme",
+  "devDependencies": {
+    "hexagon-js": "^2.5.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
