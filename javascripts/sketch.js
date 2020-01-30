@@ -7,7 +7,7 @@ var xSpeed;
 var ySpeed;
 
 function displacement(x, y){
-  console.log(`I am a point with x=${x}, y=${y}`);
+  // console.log(`I am a point with x=${x}, y=${y}`);
 }
 
 function setup(){
@@ -146,5 +146,4 @@ function setSliders(){
   sliderObj.slider7.on("change", function(value){
     sliderYDispYTime = value;
   })
-  console.log(sliderObj);
 }
