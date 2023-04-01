@@ -28,6 +28,6 @@
     "hexagon-js": "^2.5.2"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
